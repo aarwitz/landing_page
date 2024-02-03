@@ -1,0 +1,14 @@
+html {
+    font-size: 100%; // Lets use control zoom level in browser
+    box-sizing: border-box; //makes size of elementw include padding in final width, so easier to work with them
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    
+}
